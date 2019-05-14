@@ -7,3 +7,8 @@
 <p>
   description: <%= @todo.description %>
 </p>
+
+<p>
+  <%= link_to "Edit Todo", edit_todo_path(@todo)%> |
+  <%= link_to "Show All Todos", todos_path%>
+</p>
